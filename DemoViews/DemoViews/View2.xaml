@@ -14,10 +14,32 @@
                 </TableView.Root>
                 <TableSection Title="Datos Particulares">
                     <EntryCell Placeholder="Digite su número de teléfono"
-                               Label="Teléfono"/>
+                               Label="Teléfono"
+                               Keyboard="Telephone"/>
+                    <SwitchCell Text="Suscribirme"/>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout>
+                            <BoxView Color="Fuchsia"/>
+                            <Label Text="NewsLetter"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Semanal"/>
+                                    <Label Text="Mensual"/>
+                                    <Label Text="Anual"/>
+                                </StackLayout>
+                            <Label Text="Elegir Color"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Lime"/>
+                                    <Label Text="Maroon"/>
+                                    <Label Text="Teal"/>
+                                    <Label Text="Purple"/>
+                                </StackLayout>
+                            <BoxView Color="Fuchsia"/>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
                 </TableSection>
-                <SwitchCell Text="Suscribirme"/>
             </TableView>
-        </StackLayout>
+        </StackLayout>        
     </ContentPage.Content>
 </ContentPage>
