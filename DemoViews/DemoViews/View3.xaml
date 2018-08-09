@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="DemoViews.MyPage">
+             x:Class="DemoViews.View3">
     <ContentPage.Content>
-        
+        <StackLayout>
+            <TableView Intent="Form">
+                <TableSection Title="Primera sección">
+                    <TextCell Detail="Departamento"/>
+                    <EntryCell Label="Area"
+                               Placeholder="Ingrese Área"/>
+                    <SwitchCell Text="Provicional"/>
+                    <ImageCell ImageSource="login-icon.png"
+                               Detail="Clientes"/>
+                </TableSection>
+                <TableSection Title="Segunda sección">
+                    <TextCell Detail="Profesión"/>
+                    <EntryCell Label="Especialidad"
+                               Placeholder="Ingrese Especialidad"/>
+                    <SwitchCell Text="Graduado"/>
+                    <ImageCell ImageSource="login-icon.png"
+                               Detail="Logo"/>
+                </TableSection>
+            </TableView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

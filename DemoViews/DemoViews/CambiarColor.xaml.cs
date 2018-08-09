@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace DemoViews
 {
-    public partial class View3 : ContentPage
+    public partial class CambiarColor : ContentPage
     {
-        public View3()
+        public CambiarColor()
         {
             InitializeComponent();
         }

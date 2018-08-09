@@ -156,4 +156,7 @@
       <Name>DemoViews</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login-icon.png" />
+  </ItemGroup>
 </Project>
