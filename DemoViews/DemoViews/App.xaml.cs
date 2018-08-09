@@ -11,7 +11,7 @@ namespace DemoViews
         {
             InitializeComponent();
 
-            MainPage = new View3();
+            MainPage = new CambiarColor();
         }
 
         protected override void OnStart()
