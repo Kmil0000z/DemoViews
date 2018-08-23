@@ -3,7 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:AppPropina" 
              x:Class="AppPropina.MainPage">
-    <StackLayout>
-        
-    </StackLayout>
+
+        <TableView Intent="Form">
+            <TableSection Title="Datos generales">
+                <EntryCell Label="Total"
+                           Placeholder="Digite el total"
+                           x:Name="total"/>
+                <EntryCell Label="Propina"
+                           Placeholder="Digite la propina"
+                           x:Name="propina"/>
+                <EntryCell Label="Número de Personas"
+                           Placeholder="Digite el número de personas"
+                           x:Name="numpersonas"/>
+            </TableSection>
+            <TableSection Title="Calcular">
+                <ViewCell>
+                    <Button Text="Calcular"
+                            BackgroundColor="Silver"
+                            TextColor="Black"
+                            />
+                </ViewCell>
+            </TableSection>
+            <TableSection Title="Resultado">
+                <TextCell Text="Propina"
+                          Detail="$2.00"/>
+                <TextCell Text="Total"
+                              Detail="$2.00"/>
+                <TextCell Text="Propina por persona"
+                              Detail="$2.00"/>
+                <TextCell Text="Total por persona"
+                              Detail="$2.00"/>
+            </TableSection>
+        </TableView>
+    
 </ContentPage>
