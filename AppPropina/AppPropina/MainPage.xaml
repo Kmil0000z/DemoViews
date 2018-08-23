@@ -21,18 +21,19 @@
                     <Button Text="Calcular"
                             BackgroundColor="Silver"
                             TextColor="Black"
-                            />
+                            x:Name="btnCalcular"
+                            Clicked="Handle_Clicked"/>
                 </ViewCell>
             </TableSection>
             <TableSection Title="Resultado">
                 <TextCell Text="Propina"
-                          Detail="$2.00"/>
+                          x:Name="txtResPropina"/>
                 <TextCell Text="Total"
-                              Detail="$2.00"/>
+                          x:Name="txtResTotal"/>
                 <TextCell Text="Propina por persona"
-                              Detail="$2.00"/>
+                          x:Name="txtResPropPers"/>
                 <TextCell Text="Total por persona"
-                              Detail="$2.00"/>
+                          x:Name="txtResTotalPersona"/>
             </TableSection>
         </TableView>
     
