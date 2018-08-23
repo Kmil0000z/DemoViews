@@ -16,28 +16,41 @@
                    HorizontalOptions="Center"/>
             <Entry Placeholder="Ingrese su Usuario"
                    BackgroundColor="Teal"
-                   TextColor="White"/>
+                   TextColor="White"
+                   Margin="20"/>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Edad"
-                       TextColor="Purple"/>
+                       TextColor="Purple"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       WidthRequest="100"/>
                 <Entry Placeholder="Ingrese la edad"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Intereses"
-                       TextColor="Purple"/>
+                       TextColor="Purple"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       WidthRequest="100"/>
                 <Entry Placeholder="Ingrese sus intereses"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Aprende"
-                       TextColor="Purple"/>
+                       TextColor="Purple"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       WidthRequest="100"/>
                 <Entry Placeholder="Xamarin Forms, ASP .NET"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Otro"
-                       TextColor="Purple"/>
+                       TextColor="Purple"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       WidthRequest="100"/>
                 <Entry Placeholder="Xamarin Forms, ASP .NET"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
