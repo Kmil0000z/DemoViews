@@ -3,7 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:DemoStackLayout" 
              x:Class="DemoStackLayout.MainPage">
-    <StackLayout>
-        
+    <StackLayout Orientation="Horizontal">
+        <Button BackgroundColor="Black"
+                Text="Fill"
+                VerticalOptions="Fill"/>
+        <Button BackgroundColor="Black"
+                Text="Start"
+                VerticalOptions="Start"/>
+        <Button BackgroundColor="Black"
+                Text="Center"
+                VerticalOptions="Center"/>
+        <Button BackgroundColor="Black"
+                Text="End"
+                VerticalOptions="End"/>
     </StackLayout>
 </ContentPage>
