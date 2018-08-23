@@ -10,7 +10,11 @@
                     TextColor="Black"/>
             <Button BackgroundColor="Blue"
                     Text="Recibir"
-                    AbsoluteLayout.LayoutBounds="100,70,150,50"/>
+                    AbsoluteLayout.LayoutBounds="130,70,150,50"/>
+            <Button BackgroundColor="Red"
+                    Text="Lleva"
+                    AbsoluteLayout.LayoutBounds="160,110,150,.2"
+                    AbsoluteLayout.LayoutFlags="HeightProportional"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
