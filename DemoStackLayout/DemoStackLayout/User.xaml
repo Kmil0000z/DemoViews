@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DemoStackLayout.User">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Teal">
+            <Frame HeightRequest="70"
+                   BackgroundColor="Blue"/>
+            <Button HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="50"
+                    BackgroundColor="Lime"
+                    HorizontalOptions="Center"/>
+            <Label Text="Nombre de Usuario"
+                   TextColor="Purple"
+                   HorizontalOptions="Center"/>
+            <Entry Placeholder="Ingrese su Usuario"
+                   BackgroundColor="Teal"
+                   TextColor="White"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Edad"
+                       TextColor="Purple"/>
+                <Entry Placeholder="Ingrese la edad"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Intereses"
+                       TextColor="Purple"/>
+                <Entry Placeholder="Ingrese sus intereses"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Aprende"
+                       TextColor="Purple"/>
+                <Entry Placeholder="Xamarin Forms, ASP .NET"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Otro"
+                       TextColor="Purple"/>
+                <Entry Placeholder="Xamarin Forms, ASP .NET"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

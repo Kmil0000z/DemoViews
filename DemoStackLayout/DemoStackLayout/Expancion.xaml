@@ -12,17 +12,17 @@
             <BoxView BackgroundColor="Silver"
                      HeightRequest="1"/>
             <Label Text="Fill"
-                   VerticalOptions="Fill"
+                   VerticalOptions="FillAndExpand"
                    BackgroundColor="Green"/>
             <BoxView BackgroundColor="Silver"
                      HeightRequest="1"/>
             <Label Text="End"
-                   VerticalOptions="End"
+                   VerticalOptions="EndAndExpand"
                    BackgroundColor="Green"/>
             <BoxView BackgroundColor="Silver"
                      HeightRequest="1"/>
             <Label Text="Center"
-                   VerticalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
                    BackgroundColor="Green"/>
         </StackLayout>
     </ContentPage.Content>
